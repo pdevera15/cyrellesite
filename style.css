@@ -4,13 +4,13 @@ body {
   background-color: #14213d;
   color: #e5e5e5;
   width: auto;
-  padding: 1em;
   letter-spacing: 0.5px;
 }
 
 .container {
   max-width: 768px;
   margin: 0 auto;
+  height: 100vh;
 }
 
 .hl {
@@ -31,8 +31,21 @@ a:hover {
 }
 .resume {
   text-decoration: none;
-  color: #e5e5e5;
+  color: #14213d;
   background-color: #fca311;
   outline-color: #000;
   padding: 0 3px;
+}
+
+.subtitle {
+  font-size: 0.8em;
+}
+
+.footer {
+  width: 100%;
+}
+
+.screenshot {
+  max-width: 768px;
+  border-radius: 0.3em;
 }
