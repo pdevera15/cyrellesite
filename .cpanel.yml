@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cyreeosp/public_html/
-    - bin/cp -r /home/cyreeosp/repositories/cyrellesite/* $DEPLOYPATH
+    - /bin/cp /home/cyreeosp/repositories/cyrellesite/* $DEPLOYPATH
