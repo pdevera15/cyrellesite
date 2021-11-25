@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cyreeosp/public_html/
-    - cp -R * $DEPLOYPATH
+    - bin/cp * $DEPLOYPATH
